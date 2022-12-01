@@ -8,7 +8,7 @@ namespace PatternExample.Method_demo
 {//calculate 
     class CalDemo
     {
-        int a ,b;
+       /* int a ,b;*/
         public void Addition(int a,int b)
         {
             int c = a + b;
@@ -118,8 +118,8 @@ namespace PatternExample.Method_demo
     //calculate are of reactangle
     class AreaofRectangle
     {
-        double length;
-        double width;
+        /*double length;
+        double width;*/
         public double AreaReact(double length,double width)
         
         {

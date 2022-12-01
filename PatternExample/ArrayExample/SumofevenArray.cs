@@ -47,40 +47,39 @@ namespace PatternExample.ArrayExample
         }
 
     }
-    //Count the odd element from the Array
-    class OddArray
+    //Display vowel from the Array
+    class VowelDisplay
     {
-        public void Show(int[] array)
+        public void Show(char[] array)
         {
-            int count = 0;
-            for(int i=0;i<array.Length;i++)
+            Console.WriteLine("Display the vowel");
+            for (int i=0;i<array.Length;i++)
             {
-                if(array[i] %2 != 0)
+                if(array[i]=='a'|| array[i]=='e'|| array[i]=='i'|| array[i]=='o'|| array[i]=='u')
                 {
-                    // Console.Write(" Odd elements = ");
                     Console.WriteLine(array[i]);
-                        count++;
-
                 }
-            }Console.WriteLine(count);
+            }
+           
         }
         static void Main(string[] args)
         {
             
 
-            int[] a = new int[6];
-            Console.WriteLine("Enter the Elements of Array ");
-            for(int i =0;i<a.Length;i++)
+            char[] ch = new char[6];
+            Console.WriteLine("Enter the elements of Array ");
+            for(int i =0;i<ch.Length;i++)
             {
-                a[i] = Convert.ToInt32(Console.ReadLine());
+                ch[i] = Convert.ToChar(Console.ReadLine());
 
             }
-            OddArray o = new OddArray();
-            o.Show(a);
+            VowelDisplay v = new VowelDisplay();
+            v.Show(ch);
+           
             Console.ReadLine();
         }
     }
-
+    //calculate Even Odd number from the Array
     class  EvenOddNUmber
     {
         public void Show(int[] arr)
@@ -118,4 +117,59 @@ namespace PatternExample.ArrayExample
 
         }
     }
+    // Count odd number in Array
+    class OddArrayEx
+    {
+        public void Display(int[] arr)
+        {
+            Console.WriteLine("Odd number Display");
+            for(int i =0;i<arr.Length;i++)
+            {
+                if(arr[i] % 2 != 0)
+                {
+                    Console.WriteLine(arr[i]);
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            int[] a = new int[4];
+            Console.WriteLine("Enter the elements");
+            for(int i=0;i<a.Length;i++)
+            {
+                a[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+            OddArrayEx o = new OddArrayEx();
+            o.Display(a);
+        }
+    }
+   /* // Maximum Element from the Array
+    
+    class MaxNumber
+    {
+        public void Display(int[] arr)
+        {
+            int max = 0;
+            for(int i =0;i<arr.Length;i++)
+            {
+                if(max<arr[i])
+                {
+                    max = arr[i];
+                }
+                Console.WriteLine(max);
+            }
+        }
+        static void Main(string[] args)
+        {
+            int[] a = new int[6];
+            for(int i =0;i<a.Length;i++)
+            {
+                a[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            MaxValueNumber m = new MaxValueNumber();
+            m.Display(a);
+            Console.ReadLine();
+        }
+    }*/
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PatternExample.ArrayExample.EvenOddNUmber</StartupObject>
+    <StartupObject>PatternExample.ArrayExample.MinMaxCharArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayExample\NumberArrayMax.cs" />
     <Compile Include="ArrayExample\SumofevenArray.cs" />
     <Compile Include="AZPattern.cs" />
     <Compile Include="KrishanamurthiNo.cs" />
