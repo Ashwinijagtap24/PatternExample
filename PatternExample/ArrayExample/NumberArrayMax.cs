@@ -68,7 +68,7 @@ namespace PatternExample.ArrayExample
     {
         public void Show(Char[] C)
         {
-            int max = 0;c
+            int max = 0;
             for(int i = 0;i<C.Length;i++)
             {
                 if(max < C[i])
@@ -89,6 +89,36 @@ namespace PatternExample.ArrayExample
             MinMaxCharArray mm = new MinMaxCharArray();
             mm.Show(ch);
             Console.ReadLine();
+        }
+    }
+    //Sorting Array
+    class CharSortArray
+    {
+
+        public void  MySortChar(char[] a)
+        {
+            for(int i=0;i<a.Length;i++)
+            {
+                for(int j=0;j<a.Length; i++)
+                {
+                    if(a[i]<a[j])
+                    {
+                        int temp = a[i];
+                        a[i] = a[j];
+                        a[j] = a[i];
+                    }
+                }
+            }
+            Console.WriteLine(a);
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(" sorting charating  of an array...");
+            char[] ch = { 'd', 'y', 'f', 'a' };
+            CharSortArray c = new CharSortArray();
+            Console.ReadLine();
+
+           
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PatternExample.ArrayExample.MinMaxCharArray</StartupObject>
+    <StartupObject>PatternExample.OopsConceptDemo.StudentInfo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,14 +47,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayExample\NumberArrayMax.cs" />
+    <Compile Include="ArrayExample\Pattern2dArray.cs" />
     <Compile Include="ArrayExample\SumofevenArray.cs" />
     <Compile Include="AZPattern.cs" />
+    <Compile Include="BreakContinuePrg.cs" />
+    <Compile Include="ClassWorkEX\ArmStrongNUmber.cs" />
+    <Compile Include="ClassWorkEX\FactoRIalProgram.cs" />
+    <Compile Include="ClassWorkEX\Greterthreeno.cs" />
+    <Compile Include="ClassWorkEX\PatternExapl.cs" />
+    <Compile Include="ClassWorkEX\SDAyNUmber.cs" />
+    <Compile Include="DisariumProgram.cs" />
+    <Compile Include="IfElseIfEx\IFElseIF.cs" />
     <Compile Include="KrishanamurthiNo.cs" />
+    <Compile Include="LoopingEx\DoWhileProgram.cs" />
+    <Compile Include="LoopingEx\ForLoopEx.cs" />
     <Compile Include="Method demo\CalDemo.cs" />
     <Compile Include="NumberPattern.cs" />
+    <Compile Include="OopsConceptDemo\AccountDetails.cs" />
+    <Compile Include="OopsConceptDemo\StudentDetails.cs" />
     <Compile Include="PatternNumberAndStar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimplePrg\CircleRectArea.cs" />
+    <Compile Include="SwitchCaseEx\CalculatorEx.cs" />
+    <Compile Include="SwitchCaseEx\LeapYearPrg.cs" />
+    <Compile Include="SwitchCaseEx\SEvenOdd.cs" />
+    <Compile Include="SwitchCaseEx\SvoWelConsonent.cs" />
+    <Compile Include="TenaryOperator\TurnaryOperatorPrg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
