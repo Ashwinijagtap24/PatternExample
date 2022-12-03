@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PatternExample.OopsConceptDemo.StudentInfo</StartupObject>
+    <StartupObject>PatternExample.ArrayExample.PrimeNumberArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
